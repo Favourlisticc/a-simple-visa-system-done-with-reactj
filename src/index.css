@@ -1,0 +1,671 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+.imgg{
+  word-wrap: break-word;
+}
+.handleclick{
+  display: none;
+}
+.forimg{
+  padding-bottom: 20px;
+  color: black;
+  opacity: 1.5;
+  background-attachment:fixed;
+}
+.h33{
+  font-size: 16px;
+}
+.nav-a{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.nav-a > a> button, .btn{
+  color: white;
+  border: none;
+  background-color:inherit;
+  cursor: pointer;
+  padding: 5px 8px;
+  margin-top: 20px;
+}
+.nav-a > a> button:hover{
+   border: 1px solid white;
+  
+}
+.btn:hover{
+  border: 1px solid white;
+}
+
+a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-top: 3px solid red ;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.another-section{
+ color: white;
+ text-align: center;
+ margin-top: 80px;
+}
+.another-section > h3{
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+.another-section > h1{
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+.another-section > a > button{
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.another-section > a > button:hover{
+  background-color: rgb(72, 70, 70);
+  color: white;
+}
+.arrow{
+  width: 100px;
+  margin-left: 580px;
+  margin-top: 100px;
+}
+.little-about{
+  background-color: white;
+  text-align: center;
+  padding: 100px 220px;
+  font-size: 25px;
+}
+.little-about > a>button{
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.little-about > a > button:hover{
+  background-color: rgb(72, 70, 70);
+  color: white;
+}
+.process{
+  background-attachment: fixed;
+  background-color: black;
+  color: white;
+  opacity: 1.6;
+  display: flex;
+ 
+}
+.immigration{
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.immigration > hr{
+  margin-top: 40px;
+  width: 500px;
+}
+.immigration > h1{
+  padding-top: 10px;
+  font-size: 25px;
+}
+.immigration > p{
+  padding-top: 20px;
+  font-size: 17px;
+  color: rgb(176, 172, 172);
+}
+.immigration > h4{
+  padding-top: 30px;
+  font-size: 20px;
+}
+.other-side{
+  margin-top: 370px;
+  margin-left: 100px;
+  font-size: 22px;
+  
+}
+.News{
+  padding-top: 100px;
+}
+.News > h1{
+  text-align: center;
+}
+.News > h2{
+  text-align: center;
+}
+.mainNews{  
+  display: flex;
+  justify-content: center;
+padding-top: 20px;
+padding-bottom: 200px;
+}
+.canadanews{
+  margin-left: 80px;
+}
+.canadanews>img{
+  display: block;
+  width: 350px;
+}
+.travelnews{
+  padding-left: 20px;
+}
+.travelnews img{
+  width: 380px;
+}
+.australianews{
+  padding-left: 20px;
+}
+.australianews> img{
+  width: 350px;
+}
+.mainNews > section h2{
+padding: 10px 10px;
+text-align: center;
+color: orange;
+}
+.mainNews > section> p{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 40px;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(134, 110, 110);
+  }
+  iframe{
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .disclaimer{
+    text-align: center;
+    color: orange;
+  }
+  .Footer{
+    background-image: url('./imgs/footer-img.jpg');
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background-attachment: scroll;
+    display: flex;
+    color: white;
+  }
+  .footer-visa{
+    padding-left: 150px;
+    padding-top: 20px;
+  }
+  .footer-visa>h2{
+    font-size: 20px;
+  }
+  .footer-visa>a{
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .footer-contact{
+    padding-left: 200px;
+    padding-top: 30px;
+  }
+  .footer-contact>a{
+    text-decoration: underline;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+  .footer-contact>h3>{
+    padding-top: 60px;
+  }
+  .footer-connect{
+    padding-top: 30px;
+    padding-left: 200px;
+  }
+  .footer-below{
+    background-color: rgb(48, 46, 81);
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+  .footer-below>h1{
+    margin-left: 10px;
+    margin-right: 550px;
+    font-size: 18px;
+  }
+  @media only screen and (max-width: 680px) {
+  .h33{
+    font-size: 12px;
+    word-wrap: break-word;
+    padding-left: 4px;
+  }
+  
+  
+  .nav-a > a> button, .btn{
+    padding: 0px 0px;
+    margin-top: 0px;
+  }
+  .nav-a > a> button:hover{
+     border: 2px solid white;
+    
+  }
+  .btn:hover{
+    border: 2px solid white;
+  }  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-top: 3px solid red ;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: black;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .another-section{
+   color: white;
+   text-align: center;
+   margin-top: 80px;
+  }
+  .another-section > h3{
+    padding-bottom: 40px;
+    font-size: 30px;
+  }
+  .another-section > h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  .another-section > a > button{
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .another-section > a > button:hover{
+    background-color: rgb(72, 70, 70);
+    color: white;
+  }
+    .arrow{
+     margin-left: 270px;
+    }
+    .little-about{
+      background-color: white;
+      text-align: center;
+      padding: 50px 10px;
+      font-size: 25px;
+    }
+    .process{
+      display: flex;
+      flex-direction: column;
+
+     }
+    .immigration{
+      padding-top: 60px;
+      padding-left: 50px;
+      padding-bottom: 10px;
+    }
+    .immigration > hr{
+      margin-top: 20px;
+      width: 500px;
+    }
+    .immigration > h1{
+      padding-top: 10px;
+      font-size: 25px;
+    }
+    .immigration > p{
+      padding-top: 10px;
+      font-size: 17px;
+      color: rgb(210, 204, 204);
+    }
+    .immigration > h4{
+      padding-top: 30px;
+      font-size: 20px;
+    }
+    .other-side{
+      margin-top: 0px;
+      margin-left: 50px;
+      font-size: 15px;
+      margin-bottom: 13px;
+    }
+    .News{
+      padding-top: 30px;
+    }
+    .News > h1{
+      text-align: center;
+    }
+    .News > h2{
+      text-align: center;
+    }
+    .mainNews{  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .canadanews{
+      margin-left: 20px;
+      margin-bottom: 50px;
+    }
+    .canadanews>img{
+      display: block;
+      width: 350px;
+      padding-left: 140px;
+    }
+    .travelnews{
+      padding-left: 0px;
+      margin-bottom: 50px;
+    }
+    .travelnews img{
+      width: 380px;
+      padding-left: 140px;
+    }
+    .australianews{
+      padding-left: 0px;
+    }
+    .australianews> img{
+      width: 350px;
+      padding-left: 140px;
+    }
+    .mainNews > section> p{
+      line-height: 30px;
+      }
+      iframe{
+        margin-left: 70px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        width: 500px;
+        height: 300px;
+      }
+      .disclaimer{
+        text-align: center;
+        color: rgb(130, 109, 72);
+        word-wrap: break-word;
+      }
+      .Footer{
+        background-image: url('./imgs/footer-img.jpg');
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: row;
+        color: white;
+      }
+      .footer-visa{
+        padding-left: 50px;
+        padding-top: 30px;
+      }
+      .footer-visa>h2{
+        font-size: 20px;
+      }
+      .footer-visa>a{
+        padding-left: 10px;
+        font-size: 15px;
+      }
+      .footer-contact{
+        padding-left: 60px;
+        padding-top: 30px;
+      }
+      .footer-contact>a{
+        text-decoration: underline;
+        padding-left: 0px;
+        padding-bottom: 40px;
+      }
+      .footer-contact>h3>{
+        padding-top: 60px;
+      }
+      .footer-connect{
+        padding-top: 30px;
+        padding-left: 60px;
+      }
+      .footer-below{
+        background-color: rgb(48, 46, 81);
+        color: white;
+        display: inline-flex;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+      }
+      .footer-below>h1{
+        margin-left: 0px;
+        margin-right: 20px;
+        font-size: 15px;
+      }
+  }
+  @media only screen and (max-width: 580px) {
+    
+      .arrow{
+       display: none;
+      }
+      .little-about{
+        background-color: rgb(240, 234, 234);
+        text-align: center;
+        padding: 50px 60px;
+        font-size: 25px;
+        color: rgb(27, 24, 24);
+      }
+      .immigration{
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+      }
+      .immigration > hr{
+        margin-top: 20px;
+        width: 300px;
+      }
+      .immigration > h1{
+        padding-top: 10px;
+        font-size: 22px;
+      }
+      .immigration > p{
+        padding-top: 8px;
+        font-size: 17px;
+        color: rgb(240, 233, 233);
+      }
+      .other-side{
+        margin-top: 0px;
+        margin-left: 20px;
+        font-size: 12px;
+        margin-bottom: 13px;
+      }
+      .canadanews{
+        margin-left: 0px;
+        margin-bottom: 50px;
+      }
+      .canadanews>img{
+        display: block;
+        width: 290px;
+        padding-left: 45px;
+      }
+      .travelnews{
+        padding-left: 0px;
+        margin-bottom: 50px;
+      }
+      .travelnews img{
+        width: 290px;
+        padding-left: 45px;
+      }
+      .australianews> img{
+        width: 290px;
+        padding-left: 50px;
+      }
+      .mainNews > section h2{
+        padding: 10px 0px;
+        text-align: center;
+        color: orange;
+        font-size: 15px;
+        }
+      .mainNews > section> p{
+        line-height: 30px;
+        padding: 0px 6px;
+        text-align: center;
+        }
+        iframe{
+          margin-left: 30px;
+          margin-top: 0px;
+          margin-bottom: 50px;
+          width: 300px;
+          height: 200px;
+        }
+        .disclaimer{
+          text-align: center;
+          color: rgb(130, 109, 72);
+          word-wrap: break-word;
+          font-size: 20px;
+        }
+        .footer-visa{
+          padding-left: 10px;
+          padding-top: 30px;
+        }
+        .footer-visa>h2{
+          font-size: 12px;
+        }
+        .footer-visa>a{
+          padding-left: 5px;
+          font-size: 12px;
+        }
+        .footer-contact{
+          padding-left: 0px;
+          padding-top: 30px;
+          font-size: 11px;
+        }
+        .footer-contact>a{
+          text-decoration: underline;
+          padding-left: 0px;
+          padding-bottom: 40px;
+          font-size: 12px;
+        }
+        .footer-connect{
+          padding-top: 30px;
+          padding-left: 0px;
+          font-size: 11px;
+        }
+        .footer-below{
+          background-color: rgb(48, 46, 81);
+          color: white;
+          display: inline-flex;
+          width: 100%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 12px;
+        }
+        .footer-below>h1{
+          margin-left: 0px;
+          margin-right: 20px;
+          font-size: 5px;
+        }
+        .nav-a>div>a{
+          display: none;
+        }
+        .nav-a>a{
+          display: none;
+          color: purple;
+        }
+        .handleclick{
+          display: block;
+          position: absolute;
+          font-size: 40px;
+          padding-left: 200px;
+          padding-right: 30px;
+          color: white;
+          outline: none ;
+          top: 50px;
+          right: 5px;
+        }
+        .imgg>{
+          padding-right: 1000px;
+        }
+        .h33{
+          display: none;
+        }
+        .nav-a-mobile{
+          display: flex;
+          flex-direction: column;
+        }
+        .nav-a-mobile>a, .btn{
+         display: flex;
+         left: 0;
+         /* margin-top: 20px; */
+         
+         top: 0px;
+         transition: all 0.5s ease-out;
+         width: 100%;
+        }
+       
+           .nav-a>a>button{
+            display: flex;
+            flex-direction: column;
+           }
+           .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-top: 3px solid red ;
+            margin-left: 100px;
+            justify-content: right;
+          }
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+            
+          }
+          .dropdown-content a:hover {background-color: rgb(152, 151, 151);}
+  }

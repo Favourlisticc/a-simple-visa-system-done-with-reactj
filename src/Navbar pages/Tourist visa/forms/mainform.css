@@ -1,0 +1,75 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.forminput>p{
+ color: red;
+}
+
+.forminput>input{
+    padding: 1% 30%;
+    border: none;
+    margin-top: 20px;
+    font-size: 22px;
+    background-color: rgb(232, 233, 235);
+}
+.form>button{
+    margin-top: 20px;
+    padding: 14px;
+    width: 120px;
+    border-radius: 6px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+}
+@media only screen and (max-width: 1000px) {
+    .forminput>label>b{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .forminput>input{
+        padding: 2% 30%;
+        border: none;
+        margin-top: 10px;
+        font-size: 15px;
+        background-color: rgb(232, 233, 235);
+    }
+    .form>button{
+        margin-top: 20px;
+        padding: 14px;
+        width: 120px;
+        border-radius: 6px;
+        border: none;
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .forminput>label>b{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .forminput>input{
+        padding: 1.2% 25%;
+        border: none;
+        margin-top: 10px;
+        font-size: 15px;
+        background-color: rgb(232, 233, 235);
+    }
+    .form>button{
+        margin-top: 20px;
+        padding: 14px;
+        width: 120px;
+        border-radius: 6px;
+        border: none;
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+    }
+}
+

@@ -1,0 +1,90 @@
+.studyform{
+    border: none;
+    background-color: rgb(251, 251, 251);
+    color: black;
+    margin-top: 70%;
+   margin-left: 30px;
+   padding: 60px 100px;
+    line-height: 30px;
+}
+.studyform>h1{
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+.studyform>p{
+    padding-top: 20px;
+    line-height: 50px;
+}
+.studyform>a>button{
+    background-color: orange;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.studyform>a>button:hover{
+    text-decoration: underline;
+    background-color: rgb(45, 44, 44);
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    .studyform{
+        margin-top: 10%;
+        margin-right: 100%;
+       margin-left: 3px;
+       padding: 0px 0px;
+        line-height: 30px;
+    }
+    .studyform>h1{
+        padding-bottom: 20px;
+        font-weight: 200;
+    }
+    .studyform>img{
+        width: 100%;
+    }
+    .studyform>p{
+        padding-top: 20px;
+        line-height: 50px;
+    }
+    .studyform>a>button{
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 15px;
+        border-radius: 30px;
+        text-decoration: underline;
+    }
+    .studyform>a>button:hover{
+        text-decoration: underline;
+        background-color: rgb(45, 44, 44);
+        color: white;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .studyform{
+        margin-top: 10px;
+        margin-right: 3px;
+       margin-left: 30px;
+       padding: 0px 10px;
+        line-height: 30px;
+    }
+    .studyform>h1{
+        padding-bottom: 20px;
+        font-weight: 200;
+    }
+    .studyform>img{
+        width: 150%;
+    }
+    .studyform>p{
+        padding-top: 10px;
+        line-height: 31px;
+    }
+    .studyform>a>button{
+        background-color: orange;
+        border: none;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+}

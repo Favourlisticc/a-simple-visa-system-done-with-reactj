@@ -1,0 +1,11 @@
+.forcontact{
+    background-image: url('./imgs/Canada-Immigration-contact.jpg');
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+}
+.down{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
